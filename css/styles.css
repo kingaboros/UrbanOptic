@@ -1,0 +1,254 @@
+@import url('./theme.css');
+
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-light {
+  content: url('/img/logo-light.png');
+}
+
+/* navbar */
+
+.navbar {
+  /* max-width: 1280px; */
+  z-index: 180;
+  width: 80vw;
+}
+
+/* desktop menu */
+
+.desktopMenu {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  align-content: flex-end;
+  float: right;
+  padding-top: 5rem;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.menuBtn {
+  align-items: center;
+  padding: 10px 18px;
+  width: 192px;
+  height: 48px;
+  background: var(--black);
+  box-shadow: 4px 4px 20px var(--shadow);
+  border-radius: 100px;
+  color: var(--yellow);
+  border: none;
+  margin-bottom: 15px;
+  margin-top: -9px;
+}
+
+.btnIcon {
+  padding-right: 10px;
+}
+/* homepage */
+
+.heroSubtitle {
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--black);
+  text-align: left;
+  padding-left: 30rem;
+}
+
+.mainTitle {
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 242px;
+  color: var(--grey);
+  padding-left: 29rem;
+  margin: -50px 0;
+}
+
+.blurredTitle {
+  display: block;
+  filter: blur(2px);
+  padding-left: 27rem;
+}
+
+.glassesImg {
+  position: relative;
+  right: -129vmin;
+  top: 17vmin;
+  z-index: 27;
+}
+
+/* team  */
+
+h1.mainDarkTitle {
+  color: var(--black);
+  text-align: left !important;
+  font-size: 40px;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-transform: initial;
+  font-family: 'Inter';
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.teamText {
+  margin-top: 24px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.teamList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+  padding: 0;
+}
+
+.teamImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.teamName {
+  font-size: 22px;
+  color: var(--black) !important;
+  text-align: center;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.teamRoles {
+  font-size: 18px !important;
+  color: var(--lightGrey) !important;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* services */
+
+.servicesContainer {
+  margin-top: -22rem;
+  width: 1280px !important;
+}
+
+.imgCol {
+  background-image: url(../img/glasses1.png);
+  background-size: cover;
+  height: 96vh;
+  position: relative;
+  left: -36vmin;
+}
+
+.textCol {
+  margin-top: 18rem;
+  margin-left: -23rem;
+}
+
+.italicText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: italic;
+  text-align: left;
+}
+
+/* promo */
+
+.promoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.promoImg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* contact */
+
+.contactTextCol {
+  max-width: 809px;
+  margin-left: 10rem;
+  top: 31.4%;
+}
+
+.yellowTitle {
+  color: var(--yellow);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.whiteText {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-align: left;
+}
+
+.contactDiv {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+.contactImg {
+  height: auto;
+  margin-left: 33rem;
+  width: 236px;
+  height: 575px;
+}
+
+.contactIconsDiv {
+  position: relative;
+  top: 31vmin;
+}
+
+.whiteLine {
+  border: 1px solid white;
+  border-style: solid none;
+  width: 65vw;
+  position: relative;
+  left: -35vmin;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.textItem {
+  color: white;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contactIcon {
+  font-size: 30px;
+  color: var(--yellow);
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+.socialIcons {
+  margin-top: 15px;
+  margin-right: -45px;
+}
